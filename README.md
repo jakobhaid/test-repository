@@ -27,7 +27,7 @@ Folge diesen Schritten, um das Repository zu klonen und Git-Funktionen zu testen
 
 ## Beispiele für Git-Befehle
 
-- `git config`: ```bash git config --global user.name ""``` & ```bash git config --global user.email ""```
+- `git config`: ```git config --global user.name ""``` & ```git config --global user.email ""```
 - `git status`: Überprüft den Status der Arbeitskopie und des Staging-Bereichs.
 - `git add <dateiname>`: Fügt Änderungen im Arbeitsverzeichnis zum Staging-Bereich hinzu.
 - `git commit -m "Commit-Nachricht"`: Speichert den aktuellen Stand des Staging-Bereichs im lokalen Repository.
