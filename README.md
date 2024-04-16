@@ -34,6 +34,11 @@ Folge diesen Schritten, um das Repository zu klonen und Git-Funktionen zu testen
 - `git push origin main`: Pushes lokale Commits zum entfernten Repository (Ersetze `main` mit dem Namen deines Hauptbranches, falls dieser sich unterscheidet).
 - `git pull origin main`: Zieht Änderungen vom entfernten Repository und fusioniert sie mit deinem lokalen Branch.
 
+
+## Ressourcen
+[Versionsverwaltung mit Git](https://simpleclub.com/lessons/fachinformatikerin-versionsverwaltung-mit-git)
+[Make a README](https://www.makeareadme.com/)
+
 ## Hinweis
 
 Dieses Repository ist ausschließlich zu Test- und Übungszwecken gedacht. Es enthält keine Produktionscode und sollte nicht für reale Anwendungen verwendet werden.
