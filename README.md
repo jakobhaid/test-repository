@@ -36,8 +36,8 @@ Folge diesen Schritten, um das Repository zu klonen und Git-Funktionen zu testen
 
 
 ## Ressourcen
-[Versionsverwaltung mit Git](https://simpleclub.com/lessons/fachinformatikerin-versionsverwaltung-mit-git)
-[Make a README](https://www.makeareadme.com/)
+- [Versionsverwaltung mit Git](https://simpleclub.com/lessons/fachinformatikerin-versionsverwaltung-mit-git)
+- [Make a README](https://www.makeareadme.com/)
 
 ## Hinweis
 
