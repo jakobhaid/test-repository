@@ -6,14 +6,10 @@ body {
     font-family: "IBM Plex Mono", sans-serif;
 }
 
-::placeholder{
-    font-family: "IBM Plex Mono", sans-serif;
-}
-
 div {
     width: 300px;
     position: absolute;
-    top: 10px; left: 10px;
+    top: 10%; left: 10%;
     padding: 10px;
     border: 1px groove;
     color: #911414;
