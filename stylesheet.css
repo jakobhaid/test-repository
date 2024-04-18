@@ -17,6 +17,7 @@ div {
     padding: 10px;
     border: 1px groove;
     color: #911414;
+    background-color: #d05858;
 }
 
 .submit{
@@ -24,6 +25,7 @@ div {
     background-color: #fff;
     border: 1px groove;
     color: #911414;
+    background-color: #d05858;
 }
 
 .submit:hover{
@@ -44,4 +46,14 @@ input{
     border: 1px groove;
     color: #911414;
     border-radius: 5px;
+    background-color: #d05858;
+}
+
+input[type='checkbox'] {
+    border: #911414;
+    color: #d05858;
+}
+input[type='radio'] {
+    border: #911414;
+    color: #d05858;
 }
