@@ -1,34 +1,47 @@
-body {font-family: "IBM Plex Mono", sans-serif;}
+*{
+    border-radius: 10px;
+}
 
-::placeholder{font-family: "IBM Plex Mono", sans-serif;}
+body {
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+::placeholder{
+    font-family: "IBM Plex Mono", sans-serif;
+}
 
 div {
     width: 300px;
     position: absolute;
-    top: 100px; left: 100px;
+    top: 10px; left: 10px;
     padding: 10px;
     border: 1px groove;
-    color: #000;
+    color: #911414;
 }
 
 .submit{
     font-family: "IBM Plex Mono", sans-serif;
     background-color: #fff;
     border: 1px groove;
-    color: #888;
+    color: #911414;
 }
 
-.submit:hover{background-color: #ddd;}
+.submit:hover{
+    background-color: #ddd;
+}
 
 fieldset{
     border: 1px groove;
-    color: #888;
+    color: #911414;
 }
 
-legend{color: black;}
+legend{
+    color: #911414;
+}
 
 input{
     border-radius: 0px;
     border: 1px groove;
-    color: #888;
+    color: #911414;
+    border-radius: 5px;
 }
