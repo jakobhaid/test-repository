@@ -2,6 +2,11 @@
     border-radius: 10px;
 }
 
+input:hover{
+    filter: invert();
+    
+}
+
 body {
     font-family: "IBM Plex Mono", sans-serif;
 }
@@ -16,16 +21,14 @@ div {
     top: 10px; left: 10px;
     padding: 10px;
     border: 1px groove;
-    color: #911414;
-    background-color: #d05858;
+    color: #000;
 }
 
 .submit{
     font-family: "IBM Plex Mono", sans-serif;
     background-color: #fff;
     border: 1px groove;
-    color: #911414;
-    background-color: #d05858;
+    color: #000;
 }
 
 .submit:hover{
@@ -34,26 +37,16 @@ div {
 
 fieldset{
     border: 1px groove;
-    color: #911414;
+    color: #000;
 }
 
 legend{
-    color: #911414;
+    color: #000;
 }
 
 input{
     border-radius: 0px;
     border: 1px groove;
-    color: #911414;
+    color: #000;
     border-radius: 5px;
-    background-color: #d05858;
-}
-
-input[type='checkbox'] {
-    border: #911414;
-    color: #d05858;
-}
-input[type='radio'] {
-    border: #911414;
-    color: #d05858;
 }
