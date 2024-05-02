@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
+
     <body>
         <div>
             <form action="php/vars.php" method="get">
@@ -14,18 +15,23 @@
                 <label>Email:   <input type="email" name="text_field_email" size="20" placeholder="Email"/></label><br><br>
                 <label>Password:   <input type="password" name="password_field_name" size="20" minlength="5" placeholder="Password"/></label><br><br>
                 <fieldset>
-                    <legend>Study Program:</legend> <label> <input type="radio" name="program" value="I" required/>INFB</label>
-                                <label> <input type="radio" name="program" value="M" />MINB</label>
-                                <label> <input type="radio" name="program" value="O" />Other</label></fieldset><br>
+                    <legend>Study Program:</legend> 
+                    <label> <input type="radio" name="program" value="I" required/>INFB</label>
+                    <label> <input type="radio" name="program" value="M" />MINB</label>
+                    <label> <input type="radio" name="program" value="O" />Other</label>
+                </fieldset><br>
                 <fieldset>
-                    <legend>Hobby:</legend> <label> <input type="checkbox" name="sports" checked="checked" />sports</label>
-                        <label><input type="checkbox" name="travel" />traveling</label><br>
-                        <label><input type="checkbox" name="electronic" />electronics</label>
-                        <label><input type="checkbox" name="reading" />reading</label></fieldset><br>
+                    <legend>Hobby:</legend> 
+                    <label> <input type="checkbox" name="sports" checked="checked" />sports</label>
+                    <label><input type="checkbox" name="travel" />traveling</label><br>
+                    <label><input type="checkbox" name="electronic" />electronics</label>
+                    <label><input type="checkbox" name="reading" />reading</label>
+                </fieldset><br>
                 <input type="submit" value="Submit data" class="submit">
             </form>
         </div>
     </body>
+
     <footer>
         <script src="click.js"></script>
     </footer>
